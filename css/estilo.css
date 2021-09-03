@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+	background-color: #000000;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+p{
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: 'Montserrat', sans-serif;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+.filter {
+	filter: grayscale(1);
+}
+
+.filter1 {
+	filter: blur(4px);
+}
+
+.multifondo {
+	width: 960px;
+	height: 640px;
+	background:
+	url(../img/modelo3.png) left top no-repeat,
+	url(../img/modelo2.png) right top no-repeat,
+	url(../img/modelo.png) 0 0 no-repeat,
+	url(../img/pasarela.png) 0 0 no-repeat;
+	background-position: 30% 60%,
+						 70% 60%,
+						 45% 100%,
+						 100% 100%;
+
+}
+
+#parrafos {
+	width: 960px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid #ff6b6b;
+	border-color: #c8d6e5;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.bordes {
+	border-radius: 70px;
+}
+
+.transparencia {
+	width: 960px;
+	height: 640px;
+	background-color: rgba(242, 150, 182, 0.6); 
+	color: rgba(242, 150, 182, 0.6);
+}
+
+.degradado {
+	width: 960px;
+	height: 640px;
+	background: rgb(2,0,36);
+	background: radial-gradient(circle, rgba(2,0,36,1) 4%, rgba(9,121,116,1) 43%, rgba(8,129,129,1) 75%, rgba(0,212,255,1) 98%);
+}
+
+.sombra {
+	width: 960px;
+	height: 640px;
+	background-color: #c8d6e5;
+	padding-top: 80px;
+}
+
+#recuadro {
+	color: #63f1eb;
+	font-family: 'Montserrat', sans-serif;
+  	box-shadow: 30px 20px 20px #043737; 
+  	border-radius: 20px;  
+  	background-color: #097974;
+ 	width: 200px;
+ 	padding: 20px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
